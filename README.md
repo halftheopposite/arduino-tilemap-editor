@@ -1,6 +1,6 @@
 # Arduino Tilemap Editor
 
-Create, edit, and export tilemaps directly to C++ header files for Arduino and ESP32-powered devices. Perfect for game development, UI design, and visualization projects on microcontrollers with limited memory.
+Create, edit, and export tilemaps directly to C++ header files for Arduino and ESP32 devices.
 
 ![Arduino Tilemap Editor Screenshot](./images/example.png)
 

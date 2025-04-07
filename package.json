@@ -1,7 +1,7 @@
 {
   "name": "arduino-tilemap-editor",
   "version": "0.1.0",
-  "description": "Create, edit, and export tilemaps directly to C++ header files for Arduino.",
+  "description": "Create, edit, and export tilemaps directly to C++ header files for Arduino and ESP32 devices.",
   "homepage": "https://halftheopposite.github.io/arduino-tilemap-editor",
   "scripts": {
     "start": "node esbuild.config.js --serve",
