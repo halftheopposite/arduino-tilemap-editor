@@ -1,0 +1,28 @@
+{
+  "name": "arduino-tilemap-editor",
+  "version": "0.1.0",
+  "description": "Create, edit, and export tilemaps directly to C++ header files for Arduino.",
+  "scripts": {
+    "start": "node esbuild.config.js --serve",
+    "build": "node esbuild.config.js"
+  },
+  "keywords": [
+    "tilemap",
+    "editor",
+    "arduino",
+    "epd",
+    "rpg"
+  ],
+  "author": "Aymeric Chauvin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "esbuild": "^0.19.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
