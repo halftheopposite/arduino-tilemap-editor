@@ -7,6 +7,9 @@ const isServe = args.includes("--serve");
 
 const PORT = 3000;
 
+// Check if we're building for GitHub Pages
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+
 const buildOptions = {
   entryPoints: ["src/index.tsx"],
   bundle: true,
@@ -22,6 +25,8 @@ const buildOptions = {
     ".ts": "tsx",
   },
   jsx: "automatic",
+  // Set the public path for GitHub Pages if needed
+  publicPath: isGitHubPages ? "/arduino-tilemap-editor" : "/",
 };
 
 // Function to start the development server

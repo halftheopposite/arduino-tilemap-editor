@@ -8,6 +8,18 @@
       name="description"
       content="Create, edit, and export tilemaps directly to C++ header files for Arduino."
     />
+    <!-- Base URL for GitHub Pages deployment -->
+    <script>
+      // Dynamically set the base URL based on the environment
+      (function () {
+        const isGitHubPages = window.location.hostname.includes("github.io");
+        if (isGitHubPages) {
+          const baseElement = document.createElement("base");
+          baseElement.href = "/arduino-tilemap-editor/";
+          document.head.appendChild(baseElement);
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
